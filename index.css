@@ -21,10 +21,6 @@
   font-weight:bold;
   letter-spacing:0.5px;
 }
-#home_icon
-{
-  display:none;
-}
 .header_name
 {
 padding-left:40px;
@@ -148,6 +144,40 @@ padding-right:10px;
   display:none;
   margin-left:45px;
 }
+.reviw
+{
+/*display: flex; 
+justify-content:space-between; 
+list-style:none; 
+background-color:cyan; 
+color:black;
+border-radius:10px 10px 10px 10px;
+font-family:helvetica;
+font-weight:bold;*/
+  display: flex; 
+list-style:none; 
+margin-right:10px;
+background-color:cyan; 
+color:black;
+border-radius:10px 10px 10px 10px;
+font-family:helvetica;
+font-weight:bold;
+}
+.reviw-head
+{
+  display: flex; 
+list-style:none; 
+margin-right:10px;
+background-color:green; 
+color:white;
+font-family:helvetica;
+font-weight:bold;
+}
+.reviw-head li,.reviw li
+{
+  width:300px;
+  text-align:center;
+}
 @media screen and (max-width: 600px) {
   .header_name
   {
@@ -164,6 +194,11 @@ padding-right:10px;
     float: right;
     display: block;
   }
+  .reviw,.reviw-head
+  {
+    display:block;
+    text-align:center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -172,10 +207,6 @@ padding-right:10px;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  #home_icon
-  {
-    display:block;
   }
   .topnav.responsive a {
     float: none;
@@ -189,6 +220,7 @@ padding-right:10px;
     width: 100%;
     text-align: left;
   }
+ 
 }
 /*--------------------------body div------------------*/
 
